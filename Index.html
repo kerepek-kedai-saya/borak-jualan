@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borak Jualan</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 10px;
+            font-family: Arial;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+        .header { text-align: center; padding: 20px 0; }
+        .chat-area {
+            background: rgba(255,255,255,0.9);
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 15px;
+            color: black;
+        }
+        .message { padding: 10px; margin: 8px 0; border-radius: 10px; }
+        .my-msg { background: #4361ee; color: white; text-align: right; }
+        .other-msg { background: #f0f0f0; }
+        .products { display: grid; grid-template-columns: 1fr; gap: 10px; }
+        .product {
+            background: rgba(255,255,255,0.9);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        button {
+            background: #f72585;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>💬 Borak Jualan Saya</h1>
+        <p>Website pertama saya! 🎉</p>
+    </div>
+    
+    <div class="chat-area">
+        <h3>📢 Ruangan Borak</h3>
+        <div class="message my-msg">Hello! Ini website pertama saya! 😊</div>
+        <div class="message other-msg">Wah! Cantik website kamu! 👏</div>
+    </div>
+    
+    <div class="products">
+        <div class="product">
+            <h3>📱 Telefon Pintar</h3>
+            <p>💵 Harga: RM 999</p>
+            <button onclick="alert('Terima kasih beli Telefon! 💖')">🛒 Beli</button>
+        </div>
+    </div>
+    
+    <div style="background: rgba(255,255,255,0.9); padding: 15px; border-radius: 10px; margin-top: 15px; color: black;">
+        <h3>🛡️ Selamat & Seronok!</h3>
+        <p>Dibuat dengan ❤️ oleh kamu!</p>
+    </div>
+</body>
+</html>
